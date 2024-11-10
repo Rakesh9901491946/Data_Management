@@ -1,0 +1,8 @@
+version: 2
+ 
+sources:
+  - name: github
+    description: "Dataset containing raw gihub data."
+    tables: 
+      - name: github_user_data
+        description: "Raw data table from the Dataflow pipeline."
